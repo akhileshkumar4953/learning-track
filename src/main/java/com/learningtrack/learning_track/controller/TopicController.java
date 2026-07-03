@@ -15,6 +15,7 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/topics")
 @RequiredArgsConstructor
+@CrossOrigin
 public class TopicController {
 
     private final TopicService service;
